@@ -4,7 +4,7 @@ let userIn = null; // Track logged-in user
 
 // Toggle class
 function load() {
-  const element = document.getElementById("info");
+  const element = document.getElementById("info-box");
   element.classList.toggle("hidden"); 
 }
 

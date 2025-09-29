@@ -130,9 +130,9 @@ button:disabled {
 .hidden {
     display: none;
 }
-.info {
+/* info-box {
     margin-top: 20px;
     background-color: #f2f2f2;
     padding: 20px;
     border: rgb(94, 94, 7) solid 1px;
-}
+} */
