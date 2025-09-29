@@ -1,0 +1,42 @@
+// atm users data
+InfoObj =[ {
+    name: "John Doe",
+    email: "johndoe@gmail.com",
+    phone: "1234567890",
+    balance: 10000,
+    pin: "1234",
+    acctNumber: "0234567890"
+},
+{
+    name: "Peter Smith",
+    email: "petersmith@gmail.com",
+    phone: "9876543210",
+    balance: 5000,
+    pin: "4321",
+    acctNumber: "1234567890"
+},
+{
+    name: "Jane Doe",
+    email: "janedoe@gmail.com",
+    phone: "1111111111",
+    balance: 20000,
+    pin: "5678",
+    acctNumber: "2345678901"
+},
+{
+    name: "Mike Johnson",
+    email: "mikjohnson@gmail.com",
+    phone: "2222222222",
+    balance: 15000,
+    pin: "1111",
+    acctNumber: "3456789012"
+},
+{
+    name: "Tom Brown",
+    email: "tombrown@gmail.com",
+    phone: "3333333333",
+    balance: 30000,
+    pin: "9876",
+    acctNumber: "4567890123"
+}
+];

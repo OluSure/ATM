@@ -1,0 +1,138 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 30px;
+}
+main {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    border: rgb(94, 94, 7) solid 1px;
+    max-width: 600px;
+}
+p {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border: rgb(94, 94, 7) solid 1px;
+    font-size: larger;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: rgb(94, 94, 7) solid 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.atm input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: right;
+    margin-left: 10px;
+
+}
+.atm btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 1%;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.atm .result {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+ button:hover {
+    background-color: #6ca0d6;
+}
+button:active {
+    background-color: #004085;
+}
+button:focus {
+    outline: none;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.buttons {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+}
+.operator{
+    background-color: #ffc107;
+    color: #333;
+}
+.operator:hover{
+    background-color: #e0a800;
+}
+.equal{
+    background-color: #8a85ce;
+    padding: 30px 30px;
+}
+.equal:hover{
+    background-color: #59557c;
+}
+.lead{
+    background-color: #28a745;
+}
+.lead:hover{
+    background-color: #1e8436;
+}
+.load{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
+.info {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: rgb(94, 94, 7) solid 1px;
+}

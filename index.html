@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATM Access</title>
+</head>
+<body>
+    <button id="info" onclick="load()">Info</button>
+    <div id="info-box">
+        This is an ATM access system. It allows authorized personnel to access the ATM. To access the ATM, click on Start Access. To stop the access, click on Stop Access.
+        <br><br>
+        The ATM has a 4 digit pin number. Please provide the correct pin to access the ATM. The ATM has a loan facility. You can borrow money from the ATM.
+        <br><br>
+        You can yous ATM pin 1234 to access the ATM. The ATM has a balance of $10000. You can deposit or withdraw money from the ATM.
+    </div>
+<main>
+        <h1>ATM ACCESS</h1>
+    <p id="result">Welcome click on Start Access to access the ATM. If you want to stop the access, click on Stop Access.</p>
+   <div class="atm">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+                        <button class="btn operator" onclick="apend('balance')">Balance</button>
+            <button class="btn" onclick="apend('7')">7</button>
+            <button class="btn" onclick="apend('8')">8</button>
+            <button class="btn" onclick="apend('9')">9</button>
+                        <button class="btn operator" onclick="apend('deposit')">Deposit</button>
+            <button class="btn" onclick="apend('4')">4</button>
+            <button class="btn" onclick="apend('5')">5</button>
+            <button class="btn" onclick="apend('6')">6</button>
+                        <button class="btn operator" onclick="apend('withdraw')">Withdraw</button>
+            <button class="btn" onclick="apend('1')">1</button>
+            <button class="btn" onclick="apend('2')">2</button>
+            <button class="btn" onclick="apend('3')">3</button>
+                        <button class="btn operator" onclick="apend('loan')">Loan</button>
+            <button class="btn" onclick="apend('0')">0</button>
+            <button class="btn lead" onclick="clearDisplay()">C</button>
+            <button class="btn lead" onclick="enter()">Enter</button>
+             </div>
+            <div class="load">
+            <div><button class="btn equal right" onclick="startAccess()">Start Access</button></div><div>
+            <button class="btn equal left" onclick="stopAccess()">Stop Access</button></div>
+           
+        </div>
+    </div>
+   
+    <script src="app.js"></script>
+</main>
+</body>
+</html>
